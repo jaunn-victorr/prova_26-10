@@ -12,7 +12,7 @@
         <main class="container">
             <h1>Remover Gênero</h1>
             <p>
-                Tem certeza que deseja excluir o genero ${genero.nome} ?
+                Tem certeza que deseja excluir o gênero? ${genero.nome} ?
             </p>
             <form action="/generos/delete" method="post">
                 <input type="hidden" value="${genero.id}" name="id" />
